@@ -1,0 +1,63 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #A0BFE0;
+}
+
+#container{
+    background-color: #C5DFF8;
+    width: 35%;
+    margin:10% 20%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #fff;  
+}
+
+h2, h3{
+    font-family: 'Space Mono', monospace;
+    color: #00235B;
+}
+
+#guess{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    padding: 10px;
+    width: 40%;
+    border: none;
+}
+
+#btn{
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    padding: 10px;
+    margin: 15px;
+    color: #00235B;
+    background-color: #FA9884;
+    border: 1px solid #fff;
+}
+
+@media all and (max-width: 800px) {
+    #guess{
+        width: 125px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    #btn{
+        font-size: 15px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    #guess{
+        width: 135px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    #btn{
+        font-size: 10px;
+    }
+}
