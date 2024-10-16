@@ -1,4 +1,4 @@
-## Guess the Number Game - README
+## Guess the Number Game
 
 ### Project Description
 This is a simple browser-based game where the player tries to guess a randomly generated number between 1 and 20. The game provides feedback for each guess, helping the player zero in on the correct number by indicating whether they need to guess higher or lower. The game uses the SweetAlert2 library for nice alert pop-ups and GSAP for button animations.
